@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ListDataService } from './todo-data.service';
+import { ListDataService } from './list-data.service';
 
 describe('ListDataService', () => {
   let service: ListDataService;

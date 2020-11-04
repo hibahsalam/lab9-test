@@ -1,4 +1,3 @@
-<p>todo-details works!</p>
 <table mat-table [dataSource]="table_data_source" class="mat-elevation-z8"
 *ngIf="table_data_source.data.length > 0">
     <ng-container matColumnDef="ID">
@@ -32,4 +31,4 @@
   
     <tr mat-header-row *matHeaderRowDef="col_headers"></tr>
     <tr mat-row *matRowDef="let row; columns: col_headers;"></tr>
-  </table>
+</table>

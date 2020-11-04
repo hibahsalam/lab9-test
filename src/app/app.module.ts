@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AppRouterModule } from './app-router/app-router.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar'; 
 import { MatButtonModule } from '@angular/material/button'; 
@@ -16,7 +17,7 @@ import { TodoCreateComponent } from './todo-create/todo-create.component';
 import { TodoDetailsComponent } from './todo-details/todo-details.component';
 import { MatTableModule } from '@angular/material/table'; 
 import { MatListModule } from '@angular/material/list'; 
-import {MatExpansionModule} from '@angular/material/expansion'; 
+import { MatExpansionModule } from '@angular/material/expansion'; 
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
   ],
   imports: [
     BrowserModule,
+    AppRouterModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
